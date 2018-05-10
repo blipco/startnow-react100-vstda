@@ -35,9 +35,9 @@ class View extends Component {
                         </input>
                     </div> {/* col-1 */}
                     <div className="col-9">
-                        <p  className={this.state.isChecked ? 
+                        <p  className={`${this.state.isChecked ? 
                             "strike-through font-weight-bold text-dark" : 
-                            "font-weight-bold text-dark"}>
+                            "font-weight-bold text-dark"}`}>
                             {this.props.todo.text}
                         </p>
                     </div> {/* col-9 */}
